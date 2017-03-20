@@ -1,0 +1,7 @@
++3:word.is_digit(),+3:word.is_upper(),BOS,EOS,bias,word.is_upper(),word[-1],word[-2],word[-3]
+False,False,True,False,1,False,А,АА,ААА
+False,False,False,True,1,False,Б,False,БББ
+True,True,True,False,1,True,В,ВВ,ВВВ
+False,False,False,True,2,False,Г,ГГ,ГГГ
+False,False,False,False,3,False,False,False,False
+True,True,False,True,3,True,Д,ДД,ДДД
